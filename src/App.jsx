@@ -1,12 +1,22 @@
 import { useState } from 'react'
-import { AppContext } from "./context/contextApi"
+import { AppContext } from "./context/contextApi";
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Header from "./components/Header" 
+import Feed from "./components/Feed"
+import SearchResult from "./components/SearchResult"
+import VideoDetails from "./components/VideoDetails"
 
 function App() {
 
   return (
     <>
     <AppContext>
-      <div className="app">App</div>
+      <BrowserRouter>
+      <div className="flex flex-col h-full">
+        
+      </div>
+      </BrowserRouter>
     </AppContext>
     </>
   )
