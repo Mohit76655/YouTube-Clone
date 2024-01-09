@@ -14,7 +14,12 @@ function App() {
     <AppContext>
       <BrowserRouter>
       <div className="flex flex-col h-full">
-        
+        <Header />
+        <Routes>
+          <Route path="/" element={< Feed/>}/>
+          <Route path="/searchResult/:searchQuery" element={< SearchResult/>}/>
+          <Route path="/Video/:id" element={< VideoDetails/>}/>
+        </Routes>
       </div>
       </BrowserRouter>
     </AppContext>
