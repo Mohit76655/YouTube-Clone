@@ -3,3 +3,9 @@ YOUTUBE CLONE
 Build Using:
 vite + react,
 Tailwind CSS, Rapid Api.
+
+
+It's a fully functional & fully responsive youtube clone single page application 
+with react js, tailwind css & rapid api, using core concepts of react js such as 
+Jsx, components, props, state, lifecycle of components, conditional rendering, lists, keys & context api, 
+ans more complex logics in javascript to make our react application super interactive and good looking.
