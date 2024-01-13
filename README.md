@@ -6,11 +6,14 @@ Tailwind CSS, Rapid Api.
 
 
  Features : 
-
 *) Search Functionality 
+
 *) conditional rendering
+
 *) Infinite Scroll 
+
 *) Dynamic Data
+
 *) Responsiveness (for all kinds of devices)
 
 
