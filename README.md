@@ -1,8 +1,24 @@
-# React + Vite
+YOUTUBE CLONE
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Build Using:
+vite + react,
+Tailwind CSS, Rapid Api.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+ Features : 
+*) Search Functionality 
+
+*) conditional rendering
+
+*) Infinite Scroll 
+
+*) Dynamic Data
+
+*) Responsiveness (for all kinds of devices)
+
+
+It's a fully functional & fully responsive youtube clone single page application 
+with react js, tailwind css & rapid api, using core concepts of react js such as 
+Jsx, components, props, state, lifecycle of components, conditional rendering, lists, keys & context api, 
+and more complex logics in javascript to make our react application super interactive and good looking.
+
