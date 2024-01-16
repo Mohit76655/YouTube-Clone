@@ -29,7 +29,7 @@ const LeftNav = () => {
       <div className="flex px-5 flex-col">
         {categories.map((item) => {
           return (
-            <React.Fragment>
+            <React.Fragment key={item.name}>
               <LeftNavMenuItem
                 text={item.type === "home" ? "Home" : item.name}
                 icon={item.icon}
@@ -46,7 +46,11 @@ const LeftNav = () => {
           );
         })}
         <hr className="my-5 border-white/[0.2]" />
-        <div className="text-white/[0.5] text-[12px]">Clone By Mohit</div>
+        <div className="text-white/[0.5] text-[12px]">
+          <a target="blank" href="https://portfolio-zeta-bice-51.vercel.app/">
+            Clone By Mohit
+          </a>
+        </div>
       </div>
     </div>
   );
