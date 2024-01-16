@@ -25,7 +25,7 @@ const LeftNav = () => {
   };
 
   return (
-    <div className=" md:block w-[240px] overflow-y-auto h-full py-4 bg-[#0F0F0F] absolute md:relative z-10 translate-x-[-240] md:translate-x-0 transition-all scrollbar ">
+    <div className=" md:block w-[240px] overflow-y-auto h-full py-4 bg-[#0F0F0F] absolute md:relative z-10 translate-x-[-240] md:translate-x-0 transition-all scrollbar-thin ">
       <div className="flex px-5 flex-col">
         {categories.map((item) => {
           return (

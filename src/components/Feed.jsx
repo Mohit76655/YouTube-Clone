@@ -12,7 +12,7 @@ const Feed = () => {
   return (
     <div className="flex flex-row h-[calc(100%-56px)] ">
       <LeftNav />
-      <div className="grow w-[calc(100%-240px)] h-full overflow-auto bg-[#0F0F0F]">
+      <div className="grow w-[calc(100%-240px)] h-full overflow-auto bg-[#0F0F0F] scrollbar-thin scrollbar-track-transparent scrollbar-thumb-[#ffffffee] hover:scrollbar-thumb-[#ffffff80] ">
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 p-5">
           {!loading &&
             searchResult.map((item) => {
