@@ -84,7 +84,7 @@ const Header = () => {
           <IoSearch className="text-white text-xl" />
         </button>
       </div>
-      <div className="felx items-center">
+      <div className="flex items-center">
         <div className="hidden md:flex">
           <div className="flex items-center justify-center h-10 w-10 rounded-full hover:bg-[#303030]/[0.6]">
             <RiVideoAddLine className="text-white text-xl cursor-pointer" />
@@ -93,9 +93,8 @@ const Header = () => {
             <FiBell className="text-white text-xl cursor-pointer" />
           </div>
         </div>
-        <div className="flex h-8 overflow-hidden rounded-full md:ml-4">
+        <div className="flex h-8 w-8 overflow-hidden rounded-full md:ml-4">
           <img
-            className=""
             src="https://xsgames.co/randomusers/avatar.php?g=male"
             alt="profile_pic"
           />
